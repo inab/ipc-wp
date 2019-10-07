@@ -1,2 +1,2 @@
-## Protoype for EuCanSHare portal
+## Prototype for EuCanSHare portal
 
