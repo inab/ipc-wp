@@ -34,7 +34,7 @@ get_header(); ?>
 					<div id="contact" class="tab-content active">
 						<div class="split-content cf">
 							<p>
-							Got a question? Please fill out the form or email us at <strong><a href="mailto:info@eucanshare.eu">info@eucanshare.eu</a></strong>
+							Got a question? Please fill out the form or email us at <strong><a href="mailto:support@eucanshare.bsc.es">support@eucanshare.bsc.es</a></strong>
 							</p>
 							
 							<div id="form-contatti" class="content"><?php echo do_shortcode( '[contact-form-7 id="197" title="Contact-us"]' ); ?></div>

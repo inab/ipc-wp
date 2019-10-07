@@ -48,12 +48,13 @@
 					<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
 			</div><!-- .site-branding -->
 			<nav id="site-navigation" class="main-navigation">
-				<a class="menu-news <?php if (is_page('Project')){ echo 'selected';}?> " href="<?php echo get_page_link(47) ?>">PROJECT</a>				
-				<a class="menu-news <?php if (is_page('Platform')){ echo 'selected';}?> " href="<?php echo get_page_link(42) ?>">PLATFORM</a>				
-				<a class="menu-news <?php if (is_page('Consortium')){ echo 'selected';}?> " href="<?php echo get_page_link(45) ?>">CONSORTIUM</a>				
-				<a class="menu-news <?php if  (is_page('26')){ echo 'selected';}?> " href="<?php echo get_page_link(26) ?>">NEWS & EVENTS</a>
-				<a class="menu-news <?php if (is_page('Related projects')){ echo 'selected';}?> " href="<?php echo get_page_link(59) ?>">RELATED PROJECTS</a>	
-				<a class="menu-contatti last <?php if (is_page('16')){ echo 'selected';}?>"  href="<?php echo get_page_link(16) ?>" >CONTACT US</a>
+				<a class="menu-news" target="blank" href="http://eucanshare.eu">EUCANSHARE PROJECT</a>
+				<a class="menu-news <?php if (is_page('Catalogue')){ echo 'selected';}?> " href="<?php echo get_page_link(598) ?>">DATA CATALOGUE</a>
+				<a class="menu-news <?php if (is_page('603')){ echo 'selected';}?> " href="<?php echo get_page_link(603) ?>">DATA ACCESS</a>
+				<a class="menu-news <?php if (is_page('610')){ echo 'selected';}?> " href="<?php echo get_page_link(610) ?>">DATA ANALYSIS ENV.</a>
+				<a class="menu-news" href="https://mica.eucanshare.bsc.es">COHORT MGT. (restricted)</a>
+				<a class="menu-news" target = "blank" href="https://vre.eucanshare.bsc.es">My Workspace</a>
+				<a class="menu-contatti last <?php if (is_page('608')){ echo 'selected';}?>"  href="<?php echo get_page_link(608) ?>" >SUPPORT</a>
 				
 			</nav>
 			<div id="menu"></div>
