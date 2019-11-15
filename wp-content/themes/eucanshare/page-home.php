@@ -22,7 +22,7 @@ get_header(); ?>
 	<?php// get_template_part("inc/news"); ?>
 	<?php//  include("inc/social.php"); ?>	
 <div class="page-content ">
-<p>
+<p class="wrapper cf" style="padding: 20px 0px">
 euCanSHare user web-portal provide access to data catalogues, data access committees, analysis
 results, and a virtual environment to perform analysis on the data under the appropriate security conditions. EuCanSHare
  the computational environment integrates data, tools and solutions from several sources
@@ -33,13 +33,16 @@ browser module), ii) access to data access policies, and facilitation of the pro
 data access privileges (Data Analysis module).
 </p>
   <div class="scroll-content">
-      <div id="anchor01">
+      <div id="home_anchor01">
           <?php get_template_part("static/data_catalogue"); ?>
      </div>
-     <div id="anchor02">
+     <div id="home_anchor02">
          <?php get_template_part("static/access_manager"); ?>
     </div>
-    <div id="anchor03">
+     <div id="home_anchor03">
+         <?php get_template_part("static/data_manager"); ?>
+    </div>
+    <div id="home_anchor04">
         <?php get_template_part("static/data_analysis"); ?>
    </div>
 </div>

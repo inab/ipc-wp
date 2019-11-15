@@ -539,7 +539,6 @@ function wp_edit_theme_plugin_file( $args ) {
 		$r                      = wp_remote_get( $url, compact( 'cookies', 'headers', 'timeout' ) );
 		$body                   = wp_remote_retrieve_body( $r );
 		$scrape_result_position = strpos( $body, $needle_start );
-
 		$loopback_request_failure = array(
 			'code'    => 'loopback_request_failed',
 			'message' => __( 'Unable to communicate back with site to check for fatal errors, so the PHP change was reverted. You will need to upload your PHP file change by some other means, such as by using SFTP.' ),
