@@ -24,7 +24,7 @@ get_header();
         <div class="wrapper ">
            <h2 class="section-title"><?php the_title();?></h2>
         </div>
-        <div class="content">
+        <div class="content" style="margin:20px 20px">
            <?php the_content(); ?>
         </div>
 	</div>        

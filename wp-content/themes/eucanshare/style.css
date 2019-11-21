@@ -7,7 +7,6 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
@@ -1231,12 +1230,14 @@ p, ul, li {
   color: #445258;
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 767px) {
   p, ul, li {
     font-size: 14px;
     line-height: 20px;
+  margin-bottom: 15px;
   }
 }
 
@@ -1244,6 +1245,7 @@ p, ul, li {
   p, ul, li {
     font-size: 14px;
     line-height: 20px;
+  margin-bottom: 15px;
   }
 }
 

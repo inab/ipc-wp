@@ -162,6 +162,7 @@ p, ul, li {
 	color: $gray-color;
 	font-size: $font-size-text;
 	line-height: $font-lh-text;
+	margin-bottom:20px;
 
 	@media only screen and (max-width: 767px) { 
 		font-size: $font-size-small;

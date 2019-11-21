@@ -48,14 +48,16 @@
 					<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
 			</div><!-- .site-branding -->
 			<nav id="site-navigation" class="main-navigation">
+<!--<?php echo wp_nav_menu('eucanshare' )?>-->
+				<a class="menu-news" href="<?php echo home_url('/')?>">HOME</a>
 				<a class="menu-news" target="blank" href="http://eucanshare.eu">EUCANSHARE PROJECT</a>
-				<a class="menu-news <?php if (is_page('Catalogue')){ echo 'selected';}?> " href="<?php echo get_page_link(598) ?>">DATA CATALOGUE</a>
-				<a class="menu-news <?php if (is_page('603')){ echo 'selected';}?> " href="<?php echo get_page_link(603) ?>">DATA ACCESS</a>
-				<a class="menu-news <?php if (is_page('610')){ echo 'selected';}?> " href="<?php echo get_page_link(610) ?>">DATA ANALYSIS</a>
-				<a class="menu-news" href="https://mica.eucanshare.bsc.es">DATA MGT. (restricted)</a>
+				<a class="menu-news <?php if (is_page('598')) {echo 'selected';}?> " href="<?php echo get_page_link(598) ?>">DATA CATALOGUE</a>
+				<a class="menu-news <?php if (is_page('603')) {echo 'selected';}?> " href="<?php echo get_page_link(603) ?>">DATA ACCESS</a>
+				<a class="menu-news <?php if (is_page('1044')) {echo 'selected';}?> " href="<?php echo get_page_link(1044) ?>">DATA ANALYSIS</a>
+				<a class="menu-news" href="https://mica.eucanshare.bsc.es">COHORTS MGT.</a>
 				<a class="menu-news" target = "blank" href="https://vre.eucanshare.bsc.es">My Workspace</a>
+				<a class="menu-news <?php if (is_page('629')) {echo 'selected';}?> " href="<?php echo get_page_link(629) ?>">DOCUMENTATION</a>
 				<a class="menu-contatti last <?php if (is_page('608')){ echo 'selected';}?>"  href="<?php echo get_page_link(608) ?>" >SUPPORT</a>
-				
 			</nav>
 			<div id="menu"></div>
 		</div>			
@@ -72,31 +74,31 @@
 
 <div class="social-bar cf">
 	<ul class='social'>
-	  <li>
+	  <li style="margin:0">
 	    <a href="https://twitter.com/euCanSHare" target="_blank" class="fab fa-twitter">    
 	      <span>Twitter</span>
 	    </a> 
 	  </li>
 	  
-	  <li>
+	  <li style="margin:0">
 	    <a href="https://www.facebook.com/euCanSHare" target="_blank" class="fab fa-facebook-f">
 	      <span>Facebook</span>
 	    </a>
 	  </li>
 	  
-	    <li>
+	    <li style="margin:0">
 	    <a href="https://www.linkedin.com/company/eucanshare/about/" target="_blank" class="fab fa-linkedin">
 	      <span>Linkedin</span>
 	    </a>
 	  </li>
 	  
-	  <li>
+	  <li style="margin:0">
 	    <a href="https://www.researchgate.net/project/euCanSHare" target="_blank" class="fab rg">
 	      <span>ResearchGate</span>
 	    </a>
 	  </li>
 	  
-	  <li>
+	  <li style="margin:0">
 	    <a href="https://zenodo.org/communities/eucanshare" target="_blank" class="fab zenodo">
 	    <span>Zenodo</span>
 	    </a> 

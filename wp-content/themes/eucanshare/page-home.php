@@ -17,34 +17,36 @@ get_header(); ?>
 <!-- **************** SLIDER **************** -->
 <div id="home">
 
-        <?php  include("inc/slideshow.php");  ?>
+        <?php//  include("inc/slideshow.php");  ?>
         <?php//  include("inc/slideshowMobile.php");  ?>
 	<?php// get_template_part("inc/news"); ?>
 	<?php//  include("inc/social.php"); ?>	
-<div class="page-content ">
-<p class="wrapper cf" style="padding: 20px 0px">
-euCanSHare user web-portal provide access to data catalogues, data access committees, analysis
-results, and a virtual environment to perform analysis on the data under the appropriate security conditions. EuCanSHare
- the computational environment integrates data, tools and solutions from several sources
+<div class="page-content">
+<div style="width:40%;margin:50px; float:right"><img src="/dataportal/wp-content/uploads/2019/11/figure1.png" style="width:100%"></div>
+<div style="padding-left:200px; padding-top:50px">
+<h1>Data portal</h1>
+<p>&nbsp;</p>
+<p>EuCanSHare data portal provides access to data catalogues, data access policies, analysis
+results, and a virtual environment to perform analysis on the data under the appropriate security conditions.</p>
+<p>EuCanSHare
+ computational environment integrates data, tools and solutions from several sources
 with both technological and geographical diversity. The portal
-offers access to the different aspects of the project: i) access to cohort data, and metadata (data
-browser module), ii) access to data access policies, and facilitation of the procedures for gaining access privileges
-(DAC module), and iii) access to a data analysis layer honouring the appropriate security regulations, and
+offers access to the different aspects of the project: i) access to cohort data, and metadata (Data
+Catalogue module), ii) access to data access policies, and facilitation of the procedures for gaining access privileges
+(Data Access module), and iii) access to a data analysis layer honouring the appropriate security regulations, and
 data access privileges (Data Analysis module).
 </p>
-  <div class="scroll-content">
-      <div id="home_anchor01">
-          <?php get_template_part("static/data_catalogue"); ?>
-     </div>
-     <div id="home_anchor02">
-         <?php get_template_part("static/access_manager"); ?>
-    </div>
-     <div id="home_anchor03">
-         <?php get_template_part("static/data_manager"); ?>
-    </div>
-    <div id="home_anchor04">
-        <?php get_template_part("static/data_analysis"); ?>
-   </div>
+<div style="clear:both"/>
+<h2 class="section-title">Data Catalogue</h2>
+<p>Cohort Browser and Catalogue support data discovery, providing detailed information on data assets and characteristics such as key variables, access policies and harmonisation status across cohorts.  <a href="<?= get_page_link(598)?>">read more...</a></p>
+<p>
+<h2 class="section-title">Data Access</h2>
+		<p>EuCanSHare Access Manager will provide support for managing data access credentials. The access manager should provide a working environment for i) researchers applying for data access and ii) data managers responsible for evaluating such applications. <a href="<?= get_page_link(603)?>">read more...</a></p>
+
+<h2 class="section-title">Data analysis</h2>
+<p>EuCanSHare Virtual Research Environment (VRE) will be the central workspace for authenticated users.  For each user’s role, a specific workspace will be provided.
+
+The workspace will combine analysis tools, data visualization, management tools, and access to the granted data. <a href="<?= get_page_link(1044)?>">read more...</a></p>
 </div>
 
 <section class="breakpage quick-contact">
