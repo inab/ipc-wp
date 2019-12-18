@@ -20,13 +20,15 @@ get_header();
 
 	<div class="wrapper overlap">
         <?php while ( have_posts() ) : the_post(); ?>
-        <div class="content-overlap">
+	<div class="content-overlap">
+        <div style="margin-left:100px; margin-right:50px">
         <div class="wrapper ">
            <h2 class="section-title"><?php the_title();?></h2>
         </div>
         <div class="content" style="margin:20px 20px">
            <?php the_content(); ?>
-        </div>
+	</div>
+        </div> 
 	</div>        
              
 	<?php endwhile; ?>

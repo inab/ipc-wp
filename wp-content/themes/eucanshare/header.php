@@ -47,7 +47,7 @@
 			<div class="site-branding">
 					<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
 			</div><!-- .site-branding -->
-			<nav id="site-navigation" class="main-navigation">
+			<nav id="site-navigation" class="main-navigation"> 
 <!--<?php echo wp_nav_menu('eucanshare' )?>-->
 				<a class="menu-news" href="<?php echo home_url('/')?>">HOME</a>
 				<a class="menu-news" target="blank" href="http://eucanshare.eu">EUCANSHARE PROJECT</a>
@@ -55,9 +55,9 @@
 				<a class="menu-news <?php if (is_page('603')) {echo 'selected';}?> " href="<?php echo get_page_link(603) ?>">DATA ACCESS</a>
 				<a class="menu-news <?php if (is_page('1044')) {echo 'selected';}?> " href="<?php echo get_page_link(1044) ?>">DATA ANALYSIS</a>
 				<a class="menu-news" href="https://mica.eucanshare.bsc.es">COHORTS MGT.</a>
-				<a class="menu-news" target = "blank" href="https://vre.eucanshare.bsc.es">My Workspace</a>
+				<a class="menu-news" target = "blank" href="https://inb.bsc.es/auth/realms/euCanSHare/protocol/openid-connect/auth?response_type=code&client_id=agate&redirect_uri=https%3A%2F%2Fagate.eucanshare.bsc.es%2Fauth%2Fcallback%2Feucanshare&scope=openid&state=rnz13QKU1WqEcgD7hNMcIjgo2kdnMolTCQgPwZx_Me0&nonce=NYhCtWYKlq57OC6TItU5iiD8s9jPCkHk_PAkBbzW87I">My Workspace</a>
 				<a class="menu-news <?php if (is_page('629')) {echo 'selected';}?> " href="<?php echo get_page_link(629) ?>">DOCUMENTATION</a>
-				<a class="menu-contatti last <?php if (is_page('608')){ echo 'selected';}?>"  href="<?php echo get_page_link(608) ?>" >SUPPORT</a>
+				<!--<a clhss="menu-contatti last <?php if (is_page('608')){ echo 'selected';}?>"  href="<?php echo get_page_link(608) ?>" >SUPPORT</a>-->
 			</nav>
 			<div id="menu"></div>
 		</div>			
@@ -71,7 +71,6 @@
 
 	<div id="main-content">
 		
-
 <div class="social-bar cf">
 	<ul class='social'>
 	  <li style="margin:0">
