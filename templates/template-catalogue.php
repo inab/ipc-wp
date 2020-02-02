@@ -26,10 +26,11 @@ Template Name: Catalogue
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-12">
-                        <a aria-label="Access Overture" class="button-link" href="https://www.overture.bio/" target="_blank">Access iPC Catalogue</a>
+                    <div class="col-lg-12 text-center">
+                        <a aria-label="Access Overture" class="button-link" href="<?php echo get_page_link(1585)?>" target="_blank">Access iPC Catalogue</a>
                     </div>
                 </div>
+                <br>
             </div>
 
             <div class="col-lg-8">

@@ -2,6 +2,10 @@
     background:#75B9BE;
 }
 
+.navbar-expand-md .navbar-nav .nav-link {
+    font-size: 0.9rem;
+}
+
 .page-wrap {
     padding: 2rem 0;
 }
@@ -11,23 +15,9 @@
     margin-bottom: 2rem;
     width: 100%;
 }
-/*
-.menu-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-@media only screen and (max-width: 1067px) {
-    .menu-links {
-        justify-content: right;
-        margin-left: 150px;
-    }
-}*/
 
 .logo-header {
-    margin-left: 150px;
+    margin-left: 25px;
     width: 150px;
     height: 100px;
     background-image: url("../img/iPC_1c_white.svg");
@@ -36,16 +26,17 @@
     display: block;
 }
 
+/*
 @media only screen and (max-width: 768px) {
     .logo-header {
-        margin-left: 75px;
+        margin-left: 25px;
         width: 150px;
         height: 100px;
     }
-}
+} */
 
 #resources-bg {
-    background-image: url("../img/abstract.jpg");
+    background-image: url("../img/waves.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
