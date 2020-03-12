@@ -16,7 +16,7 @@ get_header();
 ?>
 
 <section id="" class=" page-default single">
-	<div class="item-img cover cover-center primary-image " style="height:100px;background-image:url(<?php echo  the_post_thumbnail_url('large');  ?>)"></div>
+	<div class="item-img cover cover-center primary-image " style="height:50px;background-image:url(<?php echo  the_post_thumbnail_url('large');  ?>)"></div>
 
 	<div class="wrapper overlap">
         <?php while ( have_posts() ) : the_post(); ?>

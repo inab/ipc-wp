@@ -42,6 +42,7 @@ sub, sup {
 	width: 100%;
 	height: auto;
 	display: block;
+	left:0;
 }
 section.breakpage {
 	margin-bottom: 60px;
@@ -106,7 +107,7 @@ section.breakpage {
 	width: 100%;
 	position: relative;
 	display: block;
-	max-width: 1200px;
+	max-width: 1500px;
 	margin: 0px auto;
     padding: 0 15px;
     &.fluid {
@@ -808,7 +809,7 @@ p, ul, li {
 header {
 	position: fixed;
 	top: 0px;
-	background: white;
+	background: #20c997;
 	text-align: right;
 	padding: 22px 0px;
     z-index: 10;	
@@ -828,16 +829,6 @@ header {
 			}		
 			
 			
-}
-
-
-.top-gradient{
-	position: absolute;
-	top:0;
-	display: block;
-	height: 4px;
-	width: 100%;
-	@include  gradientHorizontal($primary-color-light, $secondary-color-light);
 }
 
 .menu-fixed {
@@ -872,7 +863,7 @@ header {
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
     height: 65px;
 	background-image: url($main-logo);
 	background-repeat: no-repeat;
@@ -897,8 +888,7 @@ header {
 
 .main-navigation {
 	display: inline-block;
-	transform: translateY(50%);
-	margin-top: 23px;
+	margin-top: 60px;
 			@media only screen and (min-width: 768px) and (max-width: 959px), 
 			only screen and (max-width: 767px), 
 			only screen and (min-width: 480px) and (max-width: 767px) {				

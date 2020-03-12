@@ -7,6 +7,7 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
+  margin-left: 0;
   padding: 0;
   border: 0;
   outline: 0;
@@ -1093,7 +1094,8 @@ sub, sup {
 .breakpage {
   width: 100%;
   height: auto;
-  display: block;
+  display: inline-flex;
+  left: 0;
 }
 
 section.breakpage {
@@ -1109,12 +1111,10 @@ section.breakpage {
 .section-title {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
-  color: #005076;
-  border: 2px solid #005076;
+  color: #75B9BE;
+  border-bottom: 2px solid #75B9BE;
   display: inline-block;
-  padding: 5px 15px;
-  position: relative;
-  margin-left: 40px;
+  margin-left: 0px;
 }
 
 @media only screen and (max-width: 767px), only screen and (min-width: 480px) and (max-width: 767px) {
@@ -1165,9 +1165,8 @@ section.breakpage {
 
 .wrapper {
   width: 100%;
-  position: relative;
   display: block;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0px auto;
   padding: 0 15px;
 }
@@ -1904,7 +1903,7 @@ p, ul, li {
 header {
   position: fixed;
   top: 0px;
-  background: white;
+  background: #75B9BE;
   text-align: right;
   padding: 22px 0px;
   z-index: 10;
@@ -1925,30 +1924,6 @@ header {
   header {
     padding: 15px 0px;
   }
-}
-
-.top-gradient {
-  position: absolute;
-  top: 0;
-  display: block;
-  height: 4px;
-  width: 100%;
-  /* fallback/image non-cover color */
-  background-color: #00738c;
-  /* Firefox 3.6+ */
-  background-image: -moz-linear-gradient(left, #00738c 0%, #e4032e 100%);
-  /* Safari 4+, Chrome 1+ */
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #00738c), color-stop(100%, #e4032e));
-  /* Safari 5.1+, Chrome 10+ */
-  background-image: -webkit-linear-gradient(left, #00738c 0%, #e4032e 100%);
-  /* Opera 11.10+ */
-  background-image: -o-linear-gradient(left, #00738c 0%, #e4032e 100%);
-  /* IE10+ */
-  background: -ms-linear-gradient(left, #00738c 0%, #e4032e 100%);
-  /* Standard */
-  background: linear-gradient(to right, #00738c 0%, #e4032e 100%);
-  /* IE6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='$to',GradientType=1 );
 }
 
 .menu-fixed header {
@@ -1976,9 +1951,9 @@ header {
 }
 
 .logo {
-  width: 200px;
-  height: 65px;
-  background-image: url("css/img/logo_ig.svg");
+  width: 100px;
+  height: 60px;
+  background-image: url("css/img/iPC_1c_white.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   display: block;
@@ -1999,8 +1974,7 @@ header {
 
 .main-navigation {
   display: inline-block;
-  transform: translateY(50%);
-  margin-top: 23px;
+  margin-top: 25px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px), only screen and (max-width: 767px), only screen and (min-width: 480px) and (max-width: 767px) {
@@ -2055,7 +2029,7 @@ header {
 }
 
 .main-navigation a, .main-navigation .dropdown {
-  color: #005076;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
@@ -4730,7 +4704,7 @@ section.breakpage.social {
   width: auto;
   height: 220px;
   position: fixed;
-  margin-top: 30px;
+  margin-top: 40px;
   perspective: 1000px;
   z-index: 99;
   font-family: sans-serif;
@@ -4740,8 +4714,8 @@ section.breakpage.social {
   display: block;
   height: 40px;
   width: 40px;
-  background: #e4032e;
-  border-bottom: 1px solid #b61f34;
+  background: #CAD461;
+  border-bottom: 1px solid #CAD461;
   color: #fff;
   -webkit-font-smoothing: antialiased;
   padding: 12px;
@@ -4792,7 +4766,7 @@ section.breakpage.social {
 }
 
 .social-bar .social li a span {
-  background: #e4032e;
+  background: #CAD461;
   display: block;
   float: left;
   text-align: center;
@@ -6054,8 +6028,11 @@ section.breakpage.social {
   font-size: 14px;
   padding: 20px 0px 40px;
   color: white;
+  width: 101%;
+  bottom: 0;
+  left: 0;
   /* fallback/image non-cover color */
-  background-color: #b61f34;
+  background-color: #CAD461;
   /* Firefox 3.6+ */
   background-image: -moz-linear-gradient(left, #b61f34 0%, #e4032e 100%);
   /* Safari 4+, Chrome 1+ */
@@ -6067,7 +6044,7 @@ section.breakpage.social {
   /* IE10+ */
   background: -ms-linear-gradient(left, #b61f34 0%, #e4032e 100%);
   /* Standard */
-  background: linear-gradient(to right, #b61f34 0%, #e4032e 100%);
+  background: linear-gradient(to right, #CAD461 0%, #75B9BE 100%);
   /* IE6-9 */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='$to',GradientType=1 );
 }

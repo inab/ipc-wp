@@ -20,22 +20,14 @@
 	
 	<!-- 	favicon 	-->
 	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri() ?>/img/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri() ?>/img/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri() ?>/img/favicon/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri() ?>/img/favicon/iPC_4c.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri() ?>/img/favicon/iPC_4c.png">
 	<link rel="manifest" href="<?php echo get_template_directory_uri() ?>/img/favicon/site.webmanifest">
 	<link rel="mask-icon" href="<?php echo get_template_directory_uri() ?>/img/favicon/safari-pinned-tab.svg" color="#00738c">
 	<meta name="msapplication-TileColor" content="#00738c">
 	<meta name="theme-color" content="#ffffff">
 	<!-- 	favicon 	-->
-	
-	<!-- 	Open Graph 	-->
-	<meta property="og:title" content="euCanSHare">
-	<meta property="og:image" content="<?php echo get_template_directory_uri() ?>/img/og-eucanshare-logo.png">
-	<meta property="og:site_name" content="euCanSHare data portal">
-	<meta property="og:url" content="<?php echo esc_url( home_url( '/' ) ); ?>" />
-	<meta property="og:description" content="An EU-Canada joint infrastructure for next-generation multi-Study Heart research">
-	<!-- 	Open Graph 	-->
-		
+
 	<?php wp_head(); ?>
 </head>
 
@@ -48,13 +40,12 @@
 					<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
 			</div><!-- .site-branding -->
 			<nav id="site-navigation" class="main-navigation"> 
-<!--<?php echo wp_nav_menu('eucanshare' )?>-->
-				<a class="menu-news" href="<?php echo home_url('/')?>">HOME</a>
-				<a class="menu-news" target="blank" href="http://eucanshare.eu">EUCANSHARE PROJECT</a>
-				<a class="menu-news <?php if (is_page('598')) {echo 'selected';}?> " href="<?php echo get_page_link(598) ?>">DATA CATALOGUE</a>
-				<a class="menu-news <?php if (is_page('603')) {echo 'selected';}?> " href="<?php echo get_page_link(603) ?>">DATA ACCESS</a>
-				<a class="menu-news <?php if (is_page('1044')) {echo 'selected';}?> " href="<?php echo get_page_link(1044) ?>">DATA ANALYSIS</a>
-				<a class="menu-news" href="https://mica.eucanshare.bsc.es">COHORTS MGT.</a>
+<!--<?php echo wp_nav_menu('iPC-project' )?>-->
+				<a class="menu-news" href="<?php echo home_url('/')?>">Home</a>
+				<a class="menu-news" target="blank" href="https://ipc-project.eu/">iPC project</a>
+				<a class="menu-news <?php if (is_page('598')) {echo 'selected';}?> " href="<?php echo get_page_link(598) ?>">Data catalogue</a>
+				<a class="menu-news <?php if (is_page('603')) {echo 'selected';}?> " href="<?php echo get_page_link(603) ?>">Data access</a>
+				<a class="menu-news <?php if (is_page('1044')) {echo 'selected';}?> " href="<?php echo get_page_link(1044) ?>">Data analysis</a>
 				<a class="menu-news" target = "blank" href="https://inb.bsc.es/auth/realms/euCanSHare/protocol/openid-connect/auth?response_type=code&client_id=agate&redirect_uri=https%3A%2F%2Fagate.eucanshare.bsc.es%2Fauth%2Fcallback%2Feucanshare&scope=openid&state=rnz13QKU1WqEcgD7hNMcIjgo2kdnMolTCQgPwZx_Me0&nonce=NYhCtWYKlq57OC6TItU5iiD8s9jPCkHk_PAkBbzW87I">My Workspace</a>
 				<a class="menu-news <?php if (is_page('629')) {echo 'selected';}?> " href="<?php echo get_page_link(629) ?>">DOCUMENTATION</a>
 				<!--<a clhss="menu-contatti last <?php if (is_page('608')){ echo 'selected';}?>"  href="<?php echo get_page_link(608) ?>" >SUPPORT</a>-->
@@ -74,32 +65,27 @@
 <div class="social-bar cf">
 	<ul class='social'>
 	  <li style="margin:0">
-	    <a href="https://twitter.com/euCanSHare" target="_blank" class="fab fa-twitter">    
+	    <a href="https://twitter.com/iPC_H2020" target="_blank" class="fab fa-twitter">    
 	      <span>Twitter</span>
 	    </a> 
 	  </li>
 	  
 	  <li style="margin:0">
-	    <a href="https://www.facebook.com/euCanSHare" target="_blank" class="fab fa-facebook-f">
-	      <span>Facebook</span>
-	    </a>
-	  </li>
-	  
-	    <li style="margin:0">
-	    <a href="https://www.linkedin.com/company/eucanshare/about/" target="_blank" class="fab fa-linkedin">
+	    <a href="https://www.linkedin.com/company/ipcproject" target="_blank" class="fab fa-linkedin">
 	      <span>Linkedin</span>
 	    </a>
 	  </li>
-	  
-	  <li style="margin:0">
-	    <a href="https://www.researchgate.net/project/euCanSHare" target="_blank" class="fab rg">
-	      <span>ResearchGate</span>
+
+		<li style="margin:0">
+	    <a href="https://vimeo.com/technikon" target="_blank" class="fab fa-vimeo">
+	      <span>Vimeo</span>
 	    </a>
 	  </li>
 	  
 	  <li style="margin:0">
-	    <a href="https://zenodo.org/communities/eucanshare" target="_blank" class="fab zenodo">
-	    <span>Zenodo</span>
+	    <a href="https://euvation.eu/" target="_blank">
+			<span>EUVATION</span>
+			<img src="https://ipc-project.eu/wp-content/themes/ipc_theme/pics/euvation_icon.svg">
 	    </a> 
 	  </li>
 	  

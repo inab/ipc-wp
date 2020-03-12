@@ -1,6 +1,6 @@
 {
-    "name": "euCanSHare",
-    "short_name": "euCanSHare",
+    "name": "iPC",
+    "short_name": "iPC",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -15,5 +15,5 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "http://eucanshare.eu"
+    "start_url": "http://ipc-project.eu"
 }

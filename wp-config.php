@@ -18,6 +18,14 @@
  * @package WordPress
  */
  
+//define( 'WP_HOME', 'https://portal.ipc-project.bsc.es/dataportal' );
+
+//define( 'WP_SITEURL', 'https://portal.ipc-project.bsc.es/dataportal' );
+
+define( 'WP_HOME', 'https://portal.ipc-project.bsc.es/dataportal' );
+
+define( 'WP_SITEURL', 'https://portal.ipc-project.bsc.es/dataportal' );
+
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -91,3 +99,8 @@ require_once(ABSPATH . 'wp-settings.php');
 
 /* revisioni disabilitate */
 define('WP_POST_REVISIONS', false );
+
+//define('RELOCATE',true);
+
+// MANUALLY ADDED
+//define('FORCE_SSL_ADMIN', true);

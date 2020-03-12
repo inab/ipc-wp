@@ -7,6 +7,12 @@
  * @package fdg
  */
 
+//update_option( 'siteurl', 'http://portal.ipc-project.bsc.es/dataportal' );
+update_option( 'siteurl', 'https://portal.ipc-project.bsc.es/dataportal' );
+
+//update_option( 'home', 'http://portal.ipc-project.bsc.es/dataportal' );
+update_option( 'home', 'https://portal.ipc-project.bsc.es/dataportal' );
+
 if ( ! function_exists( 'fdg_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
