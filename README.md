@@ -1,2 +1,2 @@
-## Prototype for EuCanSHare portal
+## iPC portal : https://portal.ipc-project.bsc.es
 
